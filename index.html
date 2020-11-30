@@ -1,0 +1,579 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+<body>
+<header id="home_page_header">
+    <div class="home_page_header_wrapper flex_column">
+        <div class="home_page_header_inner flex">
+            <nav class="menu flex">
+                <ul class="navigation_list flex">
+                    <li><img src="./uploads/images/Rectangle%204.svg" class="logo" alt="figma land"></li>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Shop</a></li>
+                    <li><a href="">Account</a></li>
+                    <li><a href="">Pages</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Docs / Components</a></li>
+                </ul>
+            </nav>
+            <nav class="account flex">
+                <ul class="account_navigation flex">
+                    <li>
+                        <button id="my_account" class="button__my_account"></button>
+                        <label for="my_account" class="flex">My account</label>
+                    </li>
+                    <li><a href="" class="liked_products"></a></li>
+                    <li><a href="" class="basket"></a></li>
+                </ul>
+                <div class="dropdown_menu flex_column">
+                    <button type="button" class="button__dropdown"></button>
+                    <ul class="dropdown_menu_list">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Shop</a></li>
+                        <li><a href="">Account</a></li>
+                        <li><a href="">Pages</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Docs / Components</a></li>
+                        <li><a href="">My account</a></li>
+                        <li><a href="">Liked products</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="header_title_container flex_column">
+            <p>SUMMER 2020</p>
+            <h1 class="header_title">New Collection</h1>
+            <p>Find The Perfect style for you</p>
+            <button type="button" class="button__box_shadow">Shop Now</button>
+        </div>
+    </div>
+</header>
+<section id="product_categories">
+    <div class="product_categories_wrapper">
+        <div class="product_categories_inner">
+            <figure class="product_category">
+                <img src="./uploads/images/Picture_kind.png" alt="HAT">
+                <figcaption><a href="">HAT</a></figcaption>
+            </figure>
+            <figure class="product_category double_row">
+                <img src="./uploads/images/Picture_kind2.png" alt="DRESSES">
+                <figcaption><a href="">DRESSES</a></figcaption>
+            </figure>
+            <figure class="product_category">
+                <img src="./uploads/images/Picture_kind3.png" alt="BAGS">
+                <figcaption><a href="">BAGS</a></figcaption>
+            </figure>
+            <figure class="product_category">
+                <img src="./uploads/images/Picture_kind4.png" alt="SHOES">
+                <figcaption><a href="">SHOES</a></figcaption>
+            </figure>
+            <figure class="product_category">
+                <img src="./uploads/images/Picture_kind5.png" alt="CLOTHES">
+                <figcaption><a href="">CLOTHES</a></figcaption>
+            </figure>
+        </div>
+    </div>
+</section>
+<section id="features">
+    <div class="features_wrapper">
+        <h2 class="section_title">Featured Products</h2>
+        <ul class="product_types flex">
+            <li>
+                <button class="product_filter">Featured</button>
+            </li>
+            <li>
+                <button class="product_filter">Best Seller</button>
+            </li>
+            <li>
+                <button class="product_filter">New Arrivals</button>
+            </li>
+        </ul>
+        <div class="features_inner">
+            <div class="features_inner_container">
+                <picture>
+                    <source srcset="./uploads/images/Picture.png" media="(min-width: 1024px)">
+                    <img src="./uploads/images/Kleider-3-242x414.jpg" alt="Photo">
+                </picture>
+                <button class="button__like"></button>
+                <h3 class="product_name">Men's Essential Tee</h3>
+                <p class="description">(Black)</p>
+                <p class="product_price">$32.00</p>
+                <ul class="product_color_list flex">
+                    <li>
+                        <button class="product_color button__blue"></button>
+                    </li>
+                    <li>
+                        <button class="product_color button__green"></button>
+                    </li>
+                    <li>
+                        <button class="product_color button__orange"></button>
+                    </li>
+                    <li>
+                        <button class="product_color button__black"></button>
+                    </li>
+                </ul>
+                <ul class="product_size_list flex">
+                    <li>
+                        <button class="product_size">XL</button>
+                    </li>
+                    <li>
+                        <button class="product_size">L</button>
+                    </li>
+                    <li>
+                        <button class="product_size">M</button>
+                    </li>
+                    <li>
+                        <button class="product_size">S</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="features_inner_container">
+                <picture>
+                    <source srcset="./uploads/images/Picture2.png" media="(min-width: 1024px)">
+                    <img src="./uploads/images/Kleider-3-242x414.jpg" alt="Photo">
+                </picture>
+                <button class="button__like"></button>
+                <h3 class="product_name">Men's Essential Tee</h3>
+                <p class="description">(Black)</p>
+                <p class="product_price">$32.00</p>
+                <ul class="product_color_list flex">
+                    <li>
+                        <button class="product_color button__blue"></button>
+                    </li>
+                    <li>
+                        <button class="product_color button__green"></button>
+                    </li>
+                    <li>
+                        <button class="product_color button__orange"></button>
+                    </li>
+                    <li>
+                        <button class="product_color button__black"></button>
+                    </li>
+                </ul>
+                <ul class="product_size_list flex">
+                    <li>
+                        <button class="product_size">XL</button>
+                    </li>
+                    <li>
+                        <button class="product_size">L</button>
+                    </li>
+                    <li>
+                        <button class="product_size">M</button>
+                    </li>
+                    <li>
+                        <button class="product_size">S</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="features_inner_container">
+                <picture>
+                    <source srcset="./uploads/images/Picture3.png" media="(min-width: 1024px)">
+                    <img src="./uploads/images/Kleider-3-242x414.jpg" alt="Photo">
+                </picture>
+                <button class="button__like"></button>
+                <h3 class="product_name">Men's Essential Tee</h3>
+                <p class="description">(Black)</p>
+                <p class="product_price">$32.00</p>
+                <ul class="product_color_list flex">
+                    <li>
+                        <button class="product_color button__blue"></button>
+                    </li>
+                    <li>
+                        <button class="product_color button__green"></button>
+                    </li>
+                    <li>
+                        <button class="product_color button__orange"></button>
+                    </li>
+                    <li>
+                        <button class="product_color button__black"></button>
+                    </li>
+                </ul>
+                <ul class="product_size_list flex">
+                    <li>
+                        <button class="product_size">XL</button>
+                    </li>
+                    <li>
+                        <button class="product_size">L</button>
+                    </li>
+                    <li>
+                        <button class="product_size">M</button>
+                    </li>
+                    <li>
+                        <button class="product_size">S</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="features_inner_container">
+                <picture>
+                    <source srcset="./uploads/images/Picture4.png" media="(min-width: 1024px)">
+                    <img src="./uploads/images/Kleider-3-242x414.jpg" alt="Photo">
+                </picture>
+                <button class="button__like"></button>
+                <h3 class="product_name">Men's Essential Tee</h3>
+                <p class="description">(Black)</p>
+                <p class="product_price">$32.00</p>
+                <ul class="product_color_list flex">
+                    <li>
+                        <button class="product_color button__blue"></button>
+                    </li>
+                    <li>
+                        <button class="product_color button__green"></button>
+                    </li>
+                    <li>
+                        <button class="product_color button__orange"></button>
+                    </li>
+                    <li>
+                        <button class="product_color button__black"></button>
+                    </li>
+                </ul>
+                <ul class="product_size_list flex">
+                    <li>
+                        <button class="product_size">XL</button>
+                    </li>
+                    <li>
+                        <button class="product_size">L</button>
+                    </li>
+                    <li>
+                        <button class="product_size">M</button>
+                    </li>
+                    <li>
+                        <button class="product_size">S</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="latest_products">
+    <div class="latest_products_wrapper">
+        <h2 class="section_title">Latest Products</h2>
+        <div class="latest_products_inner">
+            <div class="latest_products_container">
+                <picture>
+                    <source srcset="./uploads/images/Picture_latest.png" media="(min-width: 1024px)">
+                    <img src="./uploads/images/Picture_latest.png" alt="Photo">
+                </picture>
+                <button class="button__like"></button>
+                <h3 class="product_name">Men's Essential Tee</h3>
+                <p class="description">(Black)</p>
+                <p class="product_price">$32.00</p>
+                <ul class="product_size_list flex">
+                    <li>
+                        <button class="product_size">XL</button>
+                    </li>
+                    <li>
+                        <button class="product_size">L</button>
+                    </li>
+                    <li>
+                        <button class="product_size">M</button>
+                    </li>
+                    <li>
+                        <button class="product_size">S</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="latest_products_container">
+                <picture>
+                    <source srcset="./uploads/images/Picture2_latest.png" media="(min-width: 1024px)">
+                    <img src="./uploads/images/Picture2_latest.png" alt="Photo">
+                </picture>
+                <button class="button__like"></button>
+                <h3 class="product_name">Men's Essential Tee</h3>
+                <p class="description">(Black)</p>
+                <p class="product_price">$32.00</p>
+                <ul class="product_size_list flex">
+                    <li>
+                        <button class="product_size">XL</button>
+                    </li>
+                    <li>
+                        <button class="product_size">L</button>
+                    </li>
+                    <li>
+                        <button class="product_size">M</button>
+                    </li>
+                    <li>
+                        <button class="product_size">S</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="latest_products_container">
+                <picture>
+                    <source srcset="./uploads/images/Picture3_latest.png" media="(min-width: 1024px)">
+                    <img src="./uploads/images/Picture3_latest.png" alt="Photo">
+                </picture>
+                <button class="button__like"></button>
+                <h3 class="product_name">Men's Essential Tee</h3>
+                <p class="description">(Black)</p>
+                <p class="product_price">$32.00</p>
+                <ul class="product_size_list flex">
+                    <li>
+                        <button class="product_size">XL</button>
+                    </li>
+                    <li>
+                        <button class="product_size">L</button>
+                    </li>
+                    <li>
+                        <button class="product_size">M</button>
+                    </li>
+                    <li>
+                        <button class="product_size">S</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="latest_products_container">
+                <picture>
+                    <source srcset="./uploads/images/Picture4_latest.png" media="(min-width: 1024px)">
+                    <img src="./uploads/images/Picture4_latest.png" alt="Photo">
+                </picture>
+                <button class="button__like"></button>
+                <h3 class="product_name">Men's Essential Tee</h3>
+                <p class="description">(Black)</p>
+                <p class="product_price">$32.00</p>
+                <ul class="product_size_list flex">
+                    <li>
+                        <button class="product_size">XL</button>
+                    </li>
+                    <li>
+                        <button class="product_size">L</button>
+                    </li>
+                    <li>
+                        <button class="product_size">M</button>
+                    </li>
+                    <li>
+                        <button class="product_size">S</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="latest_products_container">
+                <picture>
+                    <source srcset="./uploads/images/Picture5_latest.png" media="(min-width: 1024px)">
+                    <img src="./uploads/images/Picture5_latest.png" alt="Photo">
+                </picture>
+                <button class="button__like"></button>
+                <h3 class="product_name">Men's Essential Tee</h3>
+                <p class="description">(Black)</p>
+                <p class="product_price">$32.00</p>
+                <ul class="product_size_list flex">
+                    <li>
+                        <button class="product_size">XL</button>
+                    </li>
+                    <li>
+                        <button class="product_size">L</button>
+                    </li>
+                    <li>
+                        <button class="product_size">M</button>
+                    </li>
+                    <li>
+                        <button class="product_size">S</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="latest_products_container">
+                <picture>
+                    <source srcset="./uploads/images/Picture6_latest.png" media="(min-width: 1024px)">
+                    <img src="./uploads/images/Picture6_latest.png" alt="Photo">
+                </picture>
+                <button class="button__like"></button>
+                <h3 class="product_name">Men's Essential Tee</h3>
+                <p class="description">(Black)</p>
+                <p class="product_price">$32.00</p>
+                <ul class="product_size_list flex">
+                    <li>
+                        <button class="product_size">XL</button>
+                    </li>
+                    <li>
+                        <button class="product_size">L</button>
+                    </li>
+                    <li>
+                        <button class="product_size">M</button>
+                    </li>
+                    <li>
+                        <button class="product_size">S</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="latest_products_container">
+                <picture>
+                    <source srcset="./uploads/images/Picture7_latest.png" media="(min-width: 1024px)">
+                    <img src="./uploads/images/Picture7_latest.png" alt="Photo">
+                </picture>
+                <button class="button__like"></button>
+                <h3 class="product_name">Men's Essential Tee</h3>
+                <p class="description">(Black)</p>
+                <p class="product_price">$32.00</p>
+                <ul class="product_size_list flex">
+                    <li>
+                        <button class="product_size">XL</button>
+                    </li>
+                    <li>
+                        <button class="product_size">L</button>
+                    </li>
+                    <li>
+                        <button class="product_size">M</button>
+                    </li>
+                    <li>
+                        <button class="product_size">S</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="latest_products_container">
+                <picture>
+                    <source srcset="./uploads/images/Picture8_latest.png" media="(min-width: 1024px)">
+                    <img src="./uploads/images/Picture8_latest.png" alt="Photo">
+                </picture>
+                <button class="button__like"></button>
+                <h3 class="product_name">Men's Essential Tee</h3>
+                <p class="description">(Black)</p>
+                <p class="product_price">$32.00</p>
+                <ul class="product_size_list flex">
+                    <li>
+                        <button class="product_size">XL</button>
+                    </li>
+                    <li>
+                        <button class="product_size">L</button>
+                    </li>
+                    <li>
+                        <button class="product_size">M</button>
+                    </li>
+                    <li>
+                        <button class="product_size">S</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="our_blog">
+    <div class="our_blog_wrapper">
+        <h2 class="section_title">Our Blog</h2>
+        <div class="our_blog_inner">
+            <div class="our_blog_container">
+                <img src="./uploads/images/Picture_blog.png" alt="blog picture">
+                <div class="our_blog_container_inner">
+                    <ul class="our_blog_container_list">
+                        <li>
+                            <time datetime="20-06-2019">20 JUNE 2019</time>
+                        </li>
+                        <li><h3 class="caption">Life Tips From Top Ten Adventure</h3></li>
+                        <li class="description">Slate helps you see how many more days you need to work to reach.</li>
+                    </ul>
+                    <nav>
+                        <ul class="navigation_list flex">
+                            <li><a href="">Google</a></li>
+                            <li><a href="">Trending</a></li>
+                            <li><a href="">New</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="our_blog_container">
+                <img src="./uploads/images/Picture_blog2.png" alt="blog picture">
+                <div class="our_blog_container_inner">
+                    <ul class="our_blog_container_list">
+                        <li>
+                            <time datetime="20-06-2019">20 JUNE 2019</time>
+                        </li>
+                        <li><h3 class="caption">Life Tips From Top Ten Adventure</h3></li>
+                        <li class="description">Slate helps you see how many more days you need to work to reach.</li>
+                    </ul>
+                    <nav>
+                        <ul class="navigation_list flex">
+                            <li><a href="">Google</a></li>
+                            <li><a href="">Trending</a></li>
+                            <li><a href="">New</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="our_blog_container">
+                <img src="./uploads/images/Picture_blog3.png" alt="blog picture">
+                <div class="our_blog_container_inner">
+                    <ul class="our_blog_container_list">
+                        <li>
+                            <time datetime="20-06-2019">20 JUNE 2019</time>
+                        </li>
+                        <li><h3 class="caption">Life Tips From Top Ten Adventure</h3></li>
+                        <li class="description">Slate helps you see how many more days you need to work to reach.</li>
+                    </ul>
+                    <nav>
+                        <ul class="navigation_list flex">
+                            <li><a href="">Google</a></li>
+                            <li><a href="">Trending</a></li>
+                            <li><a href="">New</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="shop_on_instagram">
+    <div class="shop_on_instagram_wrapper">
+        <h2 class="section_title">Shop on Instagram</h2>
+        <div class="shop_on_instagram_inner">
+            <figure>
+                <img src="./uploads/images/Frame%2038.png" alt="summer">
+                <figcaption><a href="">Bags</a></figcaption>
+            </figure>
+            <figure>
+                <img src="./uploads/images/Frame%2039.png" alt="summer">
+                <figcaption><a href="">Hats</a></figcaption>
+            </figure>
+            <figure>
+                <img src="./uploads/images/Frame%2040.png" alt="summer">
+                <figcaption><a href="">Casual</a></figcaption>
+            </figure>
+        </div>
+        <form action="" class="carousel flex">
+            <button class="button__switch_left" type="button"></button>
+            <div class="flex">
+                <input type="radio" name="carousel_position" checked id="radio__first_position">
+                <label class="ellipse" for="radio__first_position">
+                </label>
+                <input type="radio" name="carousel_position" id="radio__second_position">
+                <label class="ellipse" for="radio__second_position">
+                </label>
+                <input type="radio" name="carousel_position" id="radio__third_position">
+                <label class="ellipse" for="radio__third_position">
+                </label>
+            </div>
+            <button class=button__switch_right type="button"></button>
+        </form>
+    </div>
+</section>
+<footer id="home_page_footer">
+    <div class="home_page_footer_wrapper">
+        <div class="home_page_footer_inner flex">
+            <nav class="menu flex">
+                <ul class="navigation_list flex">
+                    <li><img src="./uploads/images/Rectangle%204.svg" class="logo" alt="figma land"></li>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Shop</a></li>
+                    <li><a href="">Account</a></li>
+                    <li><a href="">Pages</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Docs / Components</a></li>
+                </ul>
+            </nav>
+            <nav class="social flex">
+                <ul class="social_list flex">
+                    <li class="twitter_link"><a href=""></a></li>
+                    <li class="facebook_link"><a href=""></a></li>
+                    <li class="instagram_link"><a href=""></a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
